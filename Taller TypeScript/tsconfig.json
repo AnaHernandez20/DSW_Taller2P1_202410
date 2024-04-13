@@ -1,0 +1,13 @@
+{
+    "compilerOptions":{
+        "target": "es5",
+        "module": "es6",
+        //Aqui es donde quiero que queden mis scripts compilados en js
+        "outDir": "./scripts",
+        //Directorio raiz que es donde estoy parada
+        "rootDir": "./",
+        //Revisar correspondencia de tipos de mis programas
+        "strict": true,
+        "alwaysStrict": true
+    }
+}

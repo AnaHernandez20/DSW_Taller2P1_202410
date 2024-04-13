@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=B612');
+
+#series tbody td {
+    background-color: #f2f3f3;
+    
+}
+
+.header {
+    display: flex; /*para poder alinear las cosas horizontal*/
+    align-items: center; /*para poder alinear las cosas x2*/
+    background-color: #4fa0b4; 
+    padding: 8px; /*para rellenar*/
+    border-radius: 0; /*cuadradoo*/
+    margin-bottom: 2rem;
+    
+}
+
+.header img {
+    margin-right: 10px; /* Me aumenta el espacio entre el logo y el texto asi no se apachurran*/
+}
+
+.table {
+    width: auto; /*Esto hace que solo se ocupe el ancho de los contenidos de mi tabla*/
+    max-width: 80%; /* Esto limita el ancho máximo de la tabla*/
+    margin-left: 80px;/* Para correrlo y que quede debajo de la s*/
+    border-top: 1px solid #dee2e6;
+}
+
+.card{
+    margin-left: 0; /*Alinear a la izquierdaaaaaaa*/
+    margin-bottom: 0; 
+}
+
+.name-column {
+    min-width: 300px; /*Para el espacio de Name */
+    white-space: nowrap; /*esto hace que css no me ponga saltos de linea en los titulos de las series*/
+  }
+
+.seasons-column{
+    min-width: 90px; /*Para el espacio de Seasons */
+}
+
+
+.card-website{
+    color:  rgb(36, 129, 211);
+}
+
